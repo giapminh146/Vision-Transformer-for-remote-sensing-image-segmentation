@@ -7,8 +7,10 @@ Group members:
 * Nguyễn Đăng Nguyên - 22BI13340
 * Giáp Đỗ Anh Minh	- 22BI13282
 
-In this project, we used the Vision Transformer model for building segmentation task as our case study, which is required to correctly segment between building and non-building areas of the aerial images.\
+In this project, we used the Vision Transformer model for building segmentation task as our case study, which is required to correctly segment between building and non-building areas of the aerial images. \
+
 The dataset used in this project is INRIA Aerial Image Labeling Dataset, which can be accessed through this link: https://project.inria.fr/aerialimagelabeling/ \
+
 There are 2 models that we have experimented: 
 * The first model was built and trained from scratch 
 * In the second model, we used the pre-trained SegFormer model's weight mit-b0, which was pre-trained on a general segmentation dataset ADE20k and fine tuned to the INRIA dataset 
